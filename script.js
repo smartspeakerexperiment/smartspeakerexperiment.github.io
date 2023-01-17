@@ -1,10 +1,10 @@
 // // script.js
 // const form = document.getElementById("form");
 
-form.addEventListener("submit", submitForm);
+// form.addEventListener("submit", submitForm);
 
-function submitForm(e) {
-    e.preventDefault();
+// function submitForm(e) {
+//     e.preventDefault();
 //     const name = document.getElementById("name");
 //     const file = document.getElementById("file");
 //     const formData = new FormData();
@@ -22,4 +22,4 @@ function submitForm(e) {
 //     })
 //         .then((res) => console.log(res))
 //         .catch((err) => ("Error occured", err));
-}
+// }
