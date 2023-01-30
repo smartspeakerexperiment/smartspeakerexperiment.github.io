@@ -1,11 +1,10 @@
-&lt;!-- index.html -->
 <head>
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
     <div class="container">
         <h1>Smart Speaker File Upload Research Study</h1>
-        <form id='form' action="http://localhost:5000/" method="POST" enctype="multipart/form-data">
+        <form id='form' action="http://35.90.57.155:80/" method="POST" enctype="multipart/form-data">
             <div class="input-group">
                 <a target="_blank"  href="https://byu.box.com/s/vqeizxh4aoaae52dydd3uwi58qu25ne8">By submitting your smart speaker data, you agree to this consent.</a>
             </div>
@@ -14,9 +13,9 @@
                 <input name='name' id='name' placeholder="Enter your MTurk ID here" />
             </div>
             <div class="input-group">
-                <input id='file' name="filename" type="file">
+                <input id='file' name="filename" type="file" multiple>
             </div>
-            <button onclick="alert('smart speakder data uploaded! If this was your only file, you are done. Otherwise, resubmit with the other files.')" class="submit-btn" >Upload</button> <!-- type='submit' -->
+            <button onclick="alert('Smart Speaker data will be uploaded when you click OK! If this was your only file, you are done. Otherwise, resubmit the other files also to get credit.')" class="submit-btn" type='submit'>Upload</button>
         </form>
     </div>
     <script src='./script.js'></script>
